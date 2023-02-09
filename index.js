@@ -3,9 +3,6 @@
 //Get target form
 const form = document.querySelector('.form');
 
-//Start list item counter
-let i = 0;
-
 //Add event listener to form submit event
 form.addEventListener('submit', function(event) {
 
@@ -43,7 +40,6 @@ form.addEventListener('submit', function(event) {
 
     //Update list item counter and clear form fieldS
     shoppingItem.value = '';
-    i++;
 })
 
 
